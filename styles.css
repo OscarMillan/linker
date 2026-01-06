@@ -52,7 +52,7 @@ a {
 }
 
 .container {
-  width: min(1160px, 92vw);
+  width: min(1160px, 94vw);
   margin: 0 auto;
 }
 
@@ -70,7 +70,7 @@ a {
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
-  padding: 1.1rem 0 1rem;
+  padding: 0.95rem 0 0.9rem;
   gap: 1rem;
   flex-wrap: wrap;
 }
@@ -136,7 +136,7 @@ a {
 
 .hero {
   position: relative;
-  padding: clamp(3.8rem, 8vw, 6.5rem) 0 3.5rem;
+  padding: clamp(2.4rem, 7vw, 6.5rem) 0 2.2rem;
   overflow: hidden;
 }
 
@@ -160,6 +160,7 @@ a {
   bottom: -120px;
   left: -90px;
   background: radial-gradient(circle, rgba(210, 71, 63, 0.2), transparent 70%);
+
 }
 
 .hero-inner {
@@ -179,6 +180,7 @@ a {
   margin: 0.6rem 0 1rem;
   line-height: 1.1;
   color: var(--color-neutral-900);
+
 }
 
 .eyebrow {
@@ -310,7 +312,7 @@ a {
 }
 
 .section {
-  padding: clamp(2.8rem, 6vw, 4.6rem) 0;
+  padding: clamp(2.4rem, 5.5vw, 4.6rem) 0;
 }
 
 .section-header {
