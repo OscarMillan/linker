@@ -14,8 +14,8 @@
   --radius-lg: 24px;
   --radius-md: 16px;
   --radius-sm: 10px;
-  --font-display: "Trebuchet MS", "Segoe UI", Arial, sans-serif;
-  --font-body: "Verdana", "Segoe UI", Arial, sans-serif;
+  --font-display: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  --font-body: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   --transition-base: 180ms ease;
   --transition-slow: 300ms ease;
 }
@@ -26,7 +26,7 @@
 
 html {
   font-size: 16px;
-  scroll-behavior: smooth;
+  scroll-behavior: smooth;;
 }
 
 body {
@@ -495,5 +495,28 @@ a {
   .reveal-item {
     opacity: 1;
     transform: none;
+  }
+}
+
+
+.services-banner {
+  display: flex;
+  gap: 16px; /* espacio entre imágenes */
+}
+
+.services-banner img {
+  width: 50%;
+  height: auto;
+  object-fit: contain;
+}
+
+/* 📱 Responsive: móvil */
+@media (max-width: 768px) {
+  .services-banner {
+    flex-direction: column;
+  }
+
+  .services-banner img {
+    width: 100%;
   }
 }
