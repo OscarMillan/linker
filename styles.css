@@ -520,3 +520,17 @@ a {
     width: 100%;
   }
 }
+
+.services-banner img.autorizado {
+  transform: scale(0.5);
+}
+
+@media (max-width: 768px) {
+  .services-banner {
+    flex-direction: column;
+  }
+
+  .services-banner img.autorizado {
+ transform: scale(0.8);
+  }
+}
